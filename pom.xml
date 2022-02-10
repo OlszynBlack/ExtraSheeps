@@ -6,7 +6,7 @@
 
     <groupId>io.github.olszynblack</groupId>
     <artifactId>ExtraSheeps</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <build>
         <plugins>
             <plugin>
@@ -22,16 +22,16 @@
 
     <repositories>
         <repository>
-            <id>purpur</id>
-            <url>https://repo.pl3x.net/</url>
+            <id>papermc</id>
+            <url>https://papermc.io/repo/repository/maven-public/</url>
         </repository>
     </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>net.pl3x.purpur</groupId>
-            <artifactId>purpur-api</artifactId>
-            <version>1.16.5-R0.1-SNAPSHOT</version>
+            <groupId>io.papermc.paper</groupId>
+            <artifactId>paper-api</artifactId>
+            <version>1.18.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
